@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 
 import { logo } from "../utils/constants";
@@ -18,7 +18,17 @@ const Navbar = () => (
     }}
   >
     <Link to="/" style={{ display: "flex", alignItems: "center" }}>
-      <img src={logo} alt="logo" height={45} />
+      <img
+        src="https://i.ibb.co/RppfvY6/play-removebg.png"
+        alt="logo"
+        height={45}
+      />
+      <Typography
+        ml={1}
+        sx={{ color: "#cf5bfd", fontWeight: "Bold", fontSize: "22px" }}
+      >
+        MediaVerse
+      </Typography>
     </Link>
     <SearchBar />
   </Stack>

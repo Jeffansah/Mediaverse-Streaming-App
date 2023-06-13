@@ -5,7 +5,7 @@ import Videos from "./Videos";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
 
 const Feed = () => {
-  const [selectedCategory, setSelectedCategory] = useState("New");
+  const [selectedCategory, setSelectedCategory] = useState("Trending");
 
   const [videos, setVideos] = useState([]);
 
@@ -40,7 +40,7 @@ const Feed = () => {
           sx={{ color: "white" }}
         >
           {selectedCategory}
-          <span style={{ color: "#f31503" }}> videos</span>
+          <span style={{ color: "#cf5bfd" }}> videos</span>
         </Typography>
         <Videos videos={videos} />
       </Box>

@@ -34,7 +34,7 @@ const SearchBar = () => {
           setSearchTerm(event.target.value);
         }}
       />
-      <IconButton type="submit" sx={{ p: "10px", color: "red" }}>
+      <IconButton type="submit" sx={{ p: "10px", color: "#cf5bfd" }}>
         <Search />
       </IconButton>
     </Paper>
