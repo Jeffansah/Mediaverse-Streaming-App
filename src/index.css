@@ -86,4 +86,8 @@ a {
   .search-bar {
     width: 200px;
   }
+
+  body {
+    overflow-x: hidden;
+  }
 }
